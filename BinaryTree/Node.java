@@ -1,5 +1,10 @@
 package BinaryTree;
 
 public class Node {
-    i
+    int data;
+    Node left;
+    Node right;
+    Node(int data){
+        this.data=data;
+    }
 }
